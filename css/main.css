@@ -392,6 +392,10 @@
     }
     .news .news-card {
         width: 50%;
+        font-size: 12px;
+    }
+    .news .news-card small {
+        font-size: 12px;
     }
     footer .footer-wrap-second {
         display: none;
