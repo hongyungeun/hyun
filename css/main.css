@@ -1,0 +1,385 @@
+@charset "utf-8";
+@import url(./reset.css);
+@import url(common.css);
+/* banner */
+.banner {
+    max-width: 100%;
+    text-align: center;
+}
+.main-banner {
+    max-width: 100%;
+    background-color: var(--bg-color);
+}
+.main-banner p {
+    display: inline-block;
+    margin-right: 25px;
+}
+.banner-desc {
+    height: 110px;
+    line-height: 110px;
+}
+.banner-desc a {
+    margin-right: 10px;
+}
+.log-in {
+    position: relative;
+}
+.log-in:after {
+    content: "";
+    position: absolute;
+    top: 44%;
+    right: -8px;
+    height: 14px;
+    border: 1px solid #999;
+}
+/* buy */
+.buy .buy-button {
+    text-align: center;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.buy-button li {
+    width: 49%;
+    padding: 10px;
+}
+.buy li {
+    display: inline-block;
+    
+}
+.buy .buy-info button{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+}
+.buy .mange-info button{
+    display: inline-block;
+    width: 100%;
+    height: 60px; 
+}
+.buy-benefit {
+    text-align: center;
+    padding: 80px 0;
+}
+.buy-benefit h1{
+    font-size: 44px;
+    margin-bottom: 80px;
+}
+.car-card-wrap {
+    width: 100%;
+}
+.card-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+.car-card {
+    width: 25%;
+    float: left;
+}
+.car-item{
+    background: var(--bg-color);
+    padding: 30px;
+    margin: 0 16px;
+    
+}
+.car-card h3 {
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.car-card p {
+    font-size: 22px;
+    text-align-last: center;
+    
+}
+.card-title {
+    color: #007FA8;
+    text-align: left;
+    margin: 35px 0 18px;
+}
+.card-sub-title {
+    margin: 0 0 18px;
+}
+.car-card button {
+    margin: 10px 0;
+    background: #002C5E;
+    color: #fff;
+    width: 49%;
+    height: 40px;
+    display: inline-block;
+}
+
+/* line-up */
+.line-up {
+    text-align: center;
+    margin-top: 50px;
+    background: #F6F3F2;
+}
+.line-up h1 {
+    margin: 40px 0;
+}
+.line-up span {
+    display: inline-block;
+    margin: 0 25px;
+    padding-bottom: 30px;
+}
+.line-up ul {
+    margin: 0 auto;
+    padding: 50px;
+}
+.line-up-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+.line-up-wrap li {
+    float: left;
+    width: 25%;
+    
+}
+.line-up-wrap li img {
+    transition: all .4s;
+}
+.line-up-wrap li:hover img{
+    transform: scale(1.1);
+}
+/* event */
+.sub-banner {
+    background: url(../img/bg_main_testdriving.jpg) no-repeat center/cover;
+    padding: 100px 0;
+    position: relative;
+}
+.sub-banner-desc {
+    
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.desc-link a{
+    
+    position: absolute;
+    top: 0px;
+    right: -500px;
+    padding: 20px;
+    background: rgb(255,255,255,0.1);
+    font-size: 15px;
+}
+.desc-link2 a{
+    position: absolute;
+    top: 0px;
+    right: -800px;
+    padding: 20px;
+    background: rgb(255,255,255,0.1);
+    font-size: 15px;
+}
+.event-banner {
+    text-align: center;
+    width: 100%;
+}
+.event-card-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+.event-banner-card {
+    width: 46%;
+    float: left;
+    margin: 2%;
+}
+.event-banner-card h4 {
+    margin: 20px 0;
+}
+.event-banner-card h3 {
+    margin-bottom: 20px;
+}
+.event-banner-card button {
+    width: 120px;
+    height: 40px;
+    background: #002C5E;
+    color: #fff;
+}
+.event-banner h1 {
+    font-size: 40px;
+    margin: 40px 0;
+    
+}
+/* news */
+.news {
+    background: #F6F3F2;
+    padding-bottom: 100px;
+}
+.news-wrap {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.news-wrap .hashtag {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.news-wrap .hashtag li{
+    background: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 20px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.news-wrap .hashtag li:hover {
+    background: #007FA8;
+    color: #fff;
+}
+.news h1 {
+    padding: 70px 0;
+    font-size: 40px;
+    text-align: center;
+}
+.news-card {
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 1px;
+}
+.news-card p {
+    text-align: center;
+    color: #fff;
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    z-index: 1;
+}
+.news-card:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.3);
+}
+.news-card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(7, 16, 102, 0.7);
+    visibility: hidden;
+}
+.news-photo {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.news-photo:after {
+    content: "";
+    background: url(../img/icon/play.jpg);
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    /* background: gold; */
+    z-index: 999;
+    transform: translate(-50%, -50%);
+}
+.news-photo img {
+    transition: all .5s;
+}
+.news-card:hover .news-photo:after {
+    visibility: hidden;
+}
+.news-card:hover p{
+    visibility: visible;
+    
+}
+.news-card:hover:after {
+    visibility: visible;
+}
+.news-card:hover img {
+    transform: scale(1.2);
+}
+.news-card:hover small {
+    border: 2px solid #fff;
+}
+.news-card small {
+    color: #fff;
+    padding: 5px 20px; 
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background: #000;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+}
+
+
+/* media */
+@media (max-width: 980px) {
+    .first-head .nav-bar-first {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+    }
+    .header-wrap {
+        box-shadow: 0 5px 10px #666;
+        padding: 0 20px;
+    }
+    .header-wrap .head-nav {
+        display: none;
+    }
+
+    .header-wrap .fas {
+        visibility: visible;
+    }
+    .fa-search {
+        font-size: 15px;
+    }
+    .buy .car-card {
+        text-align: center;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .line-up .line-up-wrap li {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .event .event-banner .event-banner-card {
+        width: 100%;
+    }
+    .sub-banner {
+        text-align: center;
+        height: 600px;
+    }
+    .sub-banner .sub-banner-desc {
+        top: 10%;
+        left: 30%;
+    }
+    .event .sub-banner-wrap .sub-banner .sub-banner-desc .desc-link a{
+        top: 150px;
+        left: 0;
+        right: 0;
+    }
+    .event .sub-banner-wrap .sub-banner .sub-banner-desc .desc-link2 a{
+        top: 300px;
+        left: 0;
+        right: 0;
+    }
+    .news .news-card {
+        width: 50%;
+    }
+    footer .footer-wrap-second {
+        display: none;
+    }
+    footer .footer-wrap .sns{
+        display: none;
+    }
+}
