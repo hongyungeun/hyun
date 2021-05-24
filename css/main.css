@@ -328,6 +328,7 @@
         text-align: center;
         float: none;
         margin: 0 auto;
+        display: none;
     }
     .header-wrap {
         box-shadow: 0 5px 10px #666;
@@ -336,7 +337,9 @@
     .header-wrap .head-nav {
         display: none;
     }
-
+    .main-banner .banner-desc p{
+        display: none;
+    }
     .header-wrap .fas {
         visibility: visible;
     }
@@ -347,6 +350,16 @@
         text-align: center;
         width: 50%;
         margin-bottom: 30px;
+    }
+    .buy .car-card .car-item p {
+        font-size: 14px;
+    }
+    .buy .car-card h3 {
+        white-space: nowrap;
+        font-size: 15px;
+    }
+    .buy .car-card .btn-wrap button{
+        width: 100%;
     }
     .line-up .line-up-wrap li {
         width: 50%;
@@ -361,7 +374,7 @@
     }
     .sub-banner .sub-banner-desc {
         top: 10%;
-        left: 30%;
+        left: 15%;
     }
     .event .sub-banner-wrap .sub-banner .sub-banner-desc .desc-link a{
         top: 150px;
