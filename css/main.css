@@ -328,10 +328,14 @@
         text-align: center;
         float: none;
         margin: 0 auto;
-        display: none;
+    }
+    .first-head .nav-bar-first li {
+        font-size: 10px;
+        padding: 0;
+        padding-top: 10px;
     }
     .header-wrap {
-        box-shadow: 0 5px 10px #666;
+        box-shadow: 0px 5px 10px #666;
         padding: 0 20px;
     }
     .header-wrap .head-nav {
